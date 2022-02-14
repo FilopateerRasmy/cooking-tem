@@ -12,13 +12,85 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Bebas Neue", cursive;
 }
 
 .container {
   width: 90%;
   margin: auto;
+}
+.container ul {
+  list-style: none;
+}
+.container ul li {
+  font-size: 1.5rem;
+}
+.container h3 {
+  font-size: 3rem;
+  line-height: 50px;
+  letter-spacing: 2.2px;
+}
+.container nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 3% 0%;
+}
+.container nav .logo {
+  align-self: center;
+}
+.container nav ul {
+  display: flex;
+  justify-content: center;
+}
+.container nav ul li {
+  margin: 0 10px;
+}
+.container nav ul a {
+  text-decoration: none;
+  color: #111111;
+  font-weight: 600;
+}
+.container nav .nav-icon {
+  align-self: center;
+  color: #111111;
+  font-size: 50px;
+}
+.container .top-bgimg {
+  background: url("slider.jpg");
+  height: 450px;
+  background-position: center;
+  position: relative;
+}
+.container .top-bgimg .content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  padding: 5px;
+  border: #fff solid 2px;
+}
+.container .top-bgimg .content span {
+  color: #fff;
+  font-size: 3rem;
+  padding: 15px;
+}
+.container footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+.container footer ul li {
+  color: #878787;
+  margin: 20px 0;
+}
+.container footer .location iframe {
+  width: 100%;
+  height: 100%;
 }
 
 .foods {
@@ -42,11 +114,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.5rem;
   max-width: 80%;
   letter-spacing: 0.15px;
-}
-.foods_content h3 {
-  font-size: 4rem;
-  line-height: 50px;
-  letter-spacing: 2.2px;
 }
 .foods_images {
   flex: 1;
@@ -118,6 +185,16 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 2.2px;
   line-height: 26px;
   color: #878787;
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav-list {
+    display: none;
+  }
+
+  .nav-icon .grid {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

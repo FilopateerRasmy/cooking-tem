@@ -2,174 +2,236 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
-    <link
-  rel="stylesheet"
-  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
-/>
-<style>
-.swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  .swiper h2{
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <style>
+    .swiper {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .swiper h2 {
       text-align: center;
       font-size: 30px;
       letter-spacing: 5px;
       margin-bottom: 15px;
-  }
+    }
 
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-  }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+    }
 
-  .swiper-slide img {
-    display: block;
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-  }
-</style>
+    .swiper-slide img {
+      display: block;
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+  </style>
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- -->
-    <div class="side-social">
-        <p>Facebook</p>
-        <p>Instgram</p>
-        <p>Twitter</p>
-        <p>Trip Advisor</p>
-    </div> 
-    <main class="container">
-      
-        <!-- navbar -->
-        <nav>
+  <!-- -->
+  <div class="side-social">
+    <p>Facebook</p>
+    <p>Instgram</p>
+    <p>Twitter</p>
+    <p>Trip Advisor</p>
+  </div>
+  <main class="container">
 
-        </nav>
-        <!-- slider -->
-        <section>
+    <!-- navbar -->
+    <nav>
+      <div class="logo">
+        <span>LOGO</span> </div>
+      <div class="nav-list">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">PAGES</a></li>
+          <li><a href="#">PORTFOLIO</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">SHOP</a></li>
+          <li><a href="#">ELEMENTS</a></li>
+        </ul>
+      </div>
+      <div class="nav-icon">
+        <i class="fas fa-border-none grid"></i>
+        <i class="fas fa-list"></i>
+      </div>
 
-        </section>
-
-
-
-        <!-- foods section -->
-        <section class="foods">
-            <div class="foods_item1">
-                <div class="foods_content">
-                    <p>supreme</p>
-                    <h3>English Food</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-                        Aenean massa. Cum sociis Theme natoque penatibus et magnis dis ultricies nec, pellentesque eu.
-                    </p>
-                    <button class="btn">View More</button>
-                </div>
-                <div class="foods_images">
-                    <div class="img-cont">
-                        <img src="https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                            alt="" class="img-1">
-                    </div>
-                    <div class="img-cont2">
-                        <img src="https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="img-2">
-
-                    </div>
-                </div>
-            </div>
+    </nav>
+    <!-- slider -->
+    <section class="top-bgimg">
+      <div class="content">
+        <span>3STAR </span>
+        <span>SUSHI CHEFS</span>
+      </div>
+    </section>
 
 
 
-            <div class="foods_item2">
-            
-                <div class="foods_images">
-                    <div class="img-cont">
-                        <img src="https://images.pexels.com/photos/3186654/pexels-photo-3186654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                            alt="" class="img-1">
-                    </div>
-                    <div class="img-cont2">
-                        <img src="https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="img-2">
-
-                    </div>
-                </div>
-                <div class="foods_content">
-                    <p>Try Our</p>
-                    <h3>Delicious Food</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-                        Aenean massa. Cum sociis Theme natoque penatibus et magnis dis ultricies nec, pellentesque eu.
-                    </p>
-                    <button class="btn">View More</button>
-                </div>
-            </div>
-
-        </section>
-
-        <div class="swiper mySwiper">
-            <h2>Discover Our Cookings</h2>
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="https://images.pexels.com/photos/3296280/pexels-photo-3296280.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-              </div>
-              <div class="swiper-slide">
-                <img src="https://images.pexels.com/photos/2120483/pexels-photo-2120483.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-              </div>
-              <div class="swiper-slide">
-                <img src="https://images.pexels.com/photos/2313682/pexels-photo-2313682.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-              </div>
-              <div class="swiper-slide">
-                <img src="https://images.pexels.com/photos/65175/pexels-photo-65175.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-              </div>
-              <div class="swiper-slide">
-                <img src="https://images.pexels.com/photos/1251208/pexels-photo-1251208.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-              </div>
-              <div class="swiper-slide">
-                <img src="https://images.pexels.com/photos/327158/pexels-photo-327158.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-              </div>
-              <div class="swiper-slide">
-                <img src="https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-              </div>
-              <div class="swiper-slide">
-                <img src="https://images.pexels.com/photos/1277939/pexels-photo-1277939.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-              </div>
-              <div class="swiper-slide">
-                <img src="https://images.pexels.com/photos/4253124/pexels-photo-4253124.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-              </div>
-            </div>
-            <div class="swiper-pagination"></div>
+    <!-- foods section -->
+    <section class="foods">
+      <div class="foods_item1">
+        <div class="foods_content">
+          <p>supreme</p>
+          <h3>English Food</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+            Aenean massa. Cum sociis Theme natoque penatibus et magnis dis ultricies nec, pellentesque eu.
+          </p>
+          <button class="btn">View More</button>
+        </div>
+        <div class="foods_images">
+          <div class="img-cont">
+            <img
+              src="https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="" class="img-1">
           </div>
-    </main>
+          <div class="img-cont2">
+            <img
+              src="https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt="" class="img-2">
+
+          </div>
+        </div>
+      </div>
 
 
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-          effect: "coverflow",
-          grabCursor: true,
-          centeredSlides: true,
-          slidesPerView: "auto",
-          coverflowEffect: {
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: true,
-          },
-          pagination: {
-            el: ".swiper-pagination",
-          },
-          loop:true
-        });
-      </script>
+
+      <div class="foods_item2">
+
+        <div class="foods_images">
+          <div class="img-cont">
+            <img
+              src="https://images.pexels.com/photos/3186654/pexels-photo-3186654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="" class="img-1">
+          </div>
+          <div class="img-cont2">
+            <img
+              src="https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="" class="img-2">
+
+          </div>
+        </div>
+        <div class="foods_content">
+          <p>Try Our</p>
+          <h3>Delicious Food</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+            Aenean massa. Cum sociis Theme natoque penatibus et magnis dis ultricies nec, pellentesque eu.
+          </p>
+          <button class="btn">View More</button>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="swiper mySwiper">
+      <h2>Discover Our Cookings</h2>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img
+            src="https://images.pexels.com/photos/3296280/pexels-photo-3296280.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://images.pexels.com/photos/2120483/pexels-photo-2120483.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://images.pexels.com/photos/2313682/pexels-photo-2313682.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://images.pexels.com/photos/65175/pexels-photo-65175.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://images.pexels.com/photos/1251208/pexels-photo-1251208.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://images.pexels.com/photos/327158/pexels-photo-327158.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://images.pexels.com/photos/1277939/pexels-photo-1277939.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://images.pexels.com/photos/4253124/pexels-photo-4253124.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <!-- footer -->
+    <footer>
+      <div class="contact">
+        <h3>DONT BE SHY, SAY HI!</h3>
+        <ul>
+          <li>0-000-000-00000</li>
+          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+          <li> 2022 Qode Interactive, All Rights Reserved</li>
+        </ul>
+      </div>
+      <div class="opening">
+        <h3>OPENING HOURS
+        </h3>
+        <ul>
+          <li>Monday 9:00 - 22:00</li>
+          <li>Tuesday 9:00 - 22:00</li>
+          <li>Wednesday 9:00 - 22:00</li>
+          <li>Thursday 9:00 - 22:00</li>
+          <li>Friday 9:00 - 22:00</li>
+          <li>Saturday 9:00 - 22:00</li>
+          <li>Sunday 9:00 - 22:00</li>
+        </ul>
+      </div>
+      <div class="location">
+        <h3>LOCATION</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8070159.793599862!2d4.177370351591225!3d9.01736314273058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0baf7da48d0d%3A0x99a8fe4168c50bc8!2sNigeria!5e0!3m2!1sen!2seg!4v1644872269159!5m2!1sen!2seg"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </footer>
+  </main>
+
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      loop: true
+    });
+  </script>
 </body>
 
 </html>

@@ -10,6 +10,7 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
 }
 
 h1,
@@ -39,6 +40,7 @@ h6 {
 .container nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 3% 0%;
 }
 .container nav .logo {
@@ -82,7 +84,7 @@ h6 {
 .container footer {
   display: flex;
   justify-content: space-between;
-  margin-top: 0.5rem;
+  padding-top: 5rem;
 }
 .container footer ul li {
   color: #878787;
@@ -195,6 +197,13 @@ h6 {
   .nav-icon .grid {
     display: none;
   }
+}
+ul li i {
+  margin-right: 0.5rem;
+}
+
+.grid {
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

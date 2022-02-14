@@ -1,48 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+<style>
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+</style>
+
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
+<body>
+    <!-- -->
+    <div class="side-social">
+        <p>Facebook</p>
+        <p>Instgram</p>
+        <p>Twitter</p>
+        <p>Trip Advisor</p>
+    </div> 
     <main class="container">
+      
         <!-- navbar -->
         <nav>
 
         </nav>
         <!-- slider -->
-        <section >
+        <section>
 
         </section>
 
 
- 
-            <!-- foods section -->
+
+        <!-- foods section -->
         <section class="foods">
-            <div class="item1">
+            <div class="foods_item1">
                 <div class="foods_content">
-    
+                    <p>supreme</p>
+                    <h3>English Food</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                        Aenean massa. Cum sociis Theme natoque penatibus et magnis dis ultricies nec, pellentesque eu.
+                    </p>
+                    <button class="btn">View More</button>
                 </div>
                 <div class="foods_images">
-    
+                    <div class="img-cont">
+                        <img src="https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                            alt="" class="img-1">
+                    </div>
+                    <div class="img-cont2">
+                        <img src="https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="img-2">
+
+                    </div>
                 </div>
             </div>
-    
-    
-    
-    
-            <div class="item2">
-    
+
+
+
+            <div class="foods_item2">
+            
+                <div class="foods_images">
+                    <div class="img-cont">
+                        <img src="https://images.pexels.com/photos/3186654/pexels-photo-3186654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="" class="img-1">
+                    </div>
+                    <div class="img-cont2">
+                        <img src="https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="img-2">
+
+                    </div>
+                </div>
+                <div class="foods_content">
+                    <p>Try Our</p>
+                    <h3>Delicious Food</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                        Aenean massa. Cum sociis Theme natoque penatibus et magnis dis ultricies nec, pellentesque eu.
+                    </p>
+                    <button class="btn">View More</button>
+                </div>
             </div>
-    
+
         </section>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://images.pexels.com/photos/3296280/pexels-photo-3296280.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://images.pexels.com/photos/2120483/pexels-photo-2120483.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://images.pexels.com/photos/2313682/pexels-photo-2313682.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://images.pexels.com/photos/65175/pexels-photo-65175.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://images.pexels.com/photos/1251208/pexels-photo-1251208.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://images.pexels.com/photos/327158/pexels-photo-327158.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://images.pexels.com/photos/1277939/pexels-photo-1277939.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://images.pexels.com/photos/4253124/pexels-photo-4253124.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
     </main>
 
 
-   
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+          loop:true
+        });
+      </script>
 </body>
+
 </html>
